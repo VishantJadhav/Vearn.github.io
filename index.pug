@@ -1,0 +1,94 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title VEarn - Earning made Simple 
+    link(rel='stylesheet', href='./css/style.css')
+    link(rel='stylesheet', href='./css/responsive.css')
+  body
+    nav.navbar.background.h-nav-resp
+      ul.nav-list.v-class-resp
+        .logo
+          img(src='./img/laptop.jpg', alt='logo')
+        li
+          a(href='#home')  Home 
+        li
+          a(href='#about')  About 
+        li
+          a(href='#services')  Services 
+        li
+          a(href='#contact')  Contact Us 
+      .rightNav.v-class-resp
+        input#search(type='text', name='search')
+        button.btn.btn-sn Search
+      .burger
+        .line
+        .line
+        .line
+    section#home.background.firstSection
+      .box-main
+        .firstHalf
+          p.text-big The Future of Business is here.
+          p.text-small
+            | Education is revolutionizing in this age of internet.
+            | And so we have came up with a better alternative of online mode of Business.
+          .buttons
+            a(href='https://www.youtube.com/channel/UCh3as6eLoWNTzwmMLvPNXGg')
+              button.btn Subscribe
+            a(href='https://youtu.be/AH8pXnIl3-g')
+              button.btn Watch Video
+        .secondHalf
+          img(src='img/laptop.jpg', alt='Laptop Image')
+    section#about.section
+      .paras
+        p.sectionTag.text-big The End of Dependency is over.
+        p.sectionSubTag.text-small
+          | Business is the practice of making one&apos;s living or making money by
+          | producing or buying and selling products (such as goods and services). It is also &quot;any
+          | activity or enterprise entered into for profit.&quot;
+          | Having a business name does not separate the business entity from the owner, which means that the owner
+          | of the business is responsible and liable for debts incurred by the business.
+      .thumbnail
+        img(src='./img/laptop.jpg', alt='')
+    section.section.section-left
+      .paras
+        p.sectionTag.text-big Do Business effortlessly.
+        p.sectionSubTag.text-small
+          | Finance is a field that deals with the study of money and investments.
+          | It includes the dynamics of assets and liabilities over time under conditions of different degrees of
+          | uncertainty and risk. In the context of business and management, finance deals with the problems of
+          | ensuring that the firm can safely and profitably carry out its operational and financial objectives;
+          | i.e. that it: has sufficient cash flow for ongoing and upcoming operational expenses, and can
+          | service both maturing short-term debt repayments, and scheduled long-term debt payments. Finance also
+          | deals with the long term objective of maximizing the value of the business, while also balancing risk
+          | and profitability.
+      .thumbnail
+        img(src='./img/laptop.jpg', alt='')
+    section#services.section
+      .paras
+        p.sectionTag.text-big Unleash your potential to earn more.
+        p.sectionSubTag.text-small
+          | Research and development refer to activities in connection with
+          | corporate or government innovation. Research and development constitute the first stage of
+          | development of a potential new service or product. Research and development are very difficult to
+          | manage since the defining feature of the research is that the researchers do not know in advance exactly
+          | how to accomplish the desired result.Sales are activity related to selling or the number of goods or
+          | services sold in a given time period. Sales are often integrated with all lines of business and are key
+          | to a companies&apos; success. The modern field was established by the Italian mathematician Luca Pacioli in
+          | 1494.
+      .thumbnail
+        img(src='./img/laptop.jpg', alt='')
+    section#contact.contact
+      h2.text-centre Contact Us
+      .form
+        input#name.form-input(type='text', name='name', placeholder='Enter your Name')
+        input#name.form-input(type='text', name='phone', placeholder='Enter your phone')
+        input#name.form-input(type='email', name='email', placeholder='Enter your Email')
+        textarea#text.form-input(name='text', cols='30', rows='10', placeholder='Elaborate your concern')
+        button.btn.btn-dark Submit
+    footer.background
+      p.text-foot
+        | Copyright &copf;; 2023 - All Rights reserved
+    script(src='js/resp.js')
